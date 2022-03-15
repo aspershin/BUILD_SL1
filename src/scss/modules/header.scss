@@ -1,0 +1,111 @@
+.header {
+  width: 100%;
+  height: 76px;
+  background-color: #4b73b5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  width: 130px;
+  height: 36px;
+  margin-left: 21px;
+}
+
+.header__link {
+  width: 120px;
+  height: 36px;
+}
+
+.header__logo-img {
+  width: 120px;
+  height: 36px;
+  background: url('../img/icons/logo_header_white.png') center center no-repeat;
+}
+
+.header__logo-img:hover {
+  background-image: url('../img/icons/logo_header_color.png');
+}
+
+
+.header__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 21px;
+  position: relative;
+}
+
+.header__phone {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 21px;
+  color: #fff;
+}
+
+.worktime-title {
+  margin-top: 5px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba($color: #fff, $alpha: .7);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.worktime-title:hover {
+  color: rgba($color: #fff, $alpha: 1.0);
+  transition: .5s;
+}
+
+.worktime-title:hover ~ {
+  .worktime {
+    opacity: 1;
+    transition: .5s;
+  }
+}
+
+.worktime {
+  width: 164px;
+  height: 82px;
+  position: absolute;
+  top: 56px;
+  right: 1px;
+  background: url('../img/icons/worktime.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 6px 2px rgba($color: #000000, $alpha: .2);
+  opacity: 0;
+  transition: .5s;
+}
+
+.worktime__box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.worktime__up {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  color: blue;
+}
+
+.worktime__up {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  color: blue;
+}
+
+.worktime__down {
+  margin-top: 7px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}

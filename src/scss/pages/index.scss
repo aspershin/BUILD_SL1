@@ -1,0 +1,71 @@
+.wrapper-intro {
+	height: 100vh;
+	background:  url('../img/intro_background.png') center center no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.main-intro {
+	width: 207px;
+	height: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-intro__logo {
+	width: 111px;
+	height: 185px;
+	background: url('../img/icons/logo_intro.png') center center no-repeat;
+}
+
+.main-intro__link {
+	width: 206px;
+	height: 45px;
+	border: 1px solid #1c5bc3;
+	border-radius: 5px;
+	color: #4b73b5;
+	font-family: "Roboto";
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-intro__link:hover {
+	background-color: #4b73b5;
+	color: #fff;
+	.main-intro__icon {
+		background-image: url('../img/icons/main_icon_white.png');
+	};
+	transition: 0.2s;
+}
+
+.main-intro__link-container {
+	height: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-intro__text {
+	margin-right: 9px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.main-intro__icon {
+	width: 15px;
+	height: 14px;
+	background: url('../img/icons/main_icon_blue.png') center center no-repeat;
+}
+

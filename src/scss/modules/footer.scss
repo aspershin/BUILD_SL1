@@ -1,0 +1,105 @@
+.footer {
+  width: 100%;
+  height: 76px;
+  background-color: #4b73b5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer__left {
+  width: 260px;
+  font-family: 'Roboto';
+  font-weight: lighter;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.42;
+}
+
+.title-loftschool {
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.title-loftschool:link {
+  color: #fff;
+}
+
+.title-loftschool:visited {
+  color: #fff;
+}
+
+.title-loftschool:active {
+  color: #fff;
+}
+
+.title-author {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__right-title {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  margin-top: 9px;
+}
+
+.socials__item {
+  width: 20px;
+  height: 20px;
+  background-color: #d2def3;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.socials__item:hover {
+  background-color: #fff;
+  transition: .3s;
+}
+
+.socials__item:last-child {
+  margin-right: 0px;
+}
+
+.socials__link {
+  width: 20px;
+  height: 20px;
+  background: center center no-repeat;
+  display: flex;
+}
+
+.socials__link--vk {
+  background-image: url('../img/icons/vk.png');
+}
+
+.socials__link--fb {
+  background-image: url('../img/icons/fb.png');
+}
+
+.socials__link--google {
+  background-image: url('../img/icons/google+.png');
+}
+
+.socials__link--twitter {
+  background-image: url('../img/icons/twitter.png');
+}
+
+.socials__link--mail {
+  background-image: url('../img/icons/mail.png');
+}
